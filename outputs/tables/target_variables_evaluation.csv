@@ -1,0 +1,5 @@
+target_name,target_type,skewness,zero_pct,suitability,positive_pct,classes
+crash_density_per_km,Continuous Regression,38.28,97.44,High (Normalized for road exposure),,
+EPDO_score,Severity-Weighted Continuous,58.38,97.44,Highest (Integrates fatality and injury costs),,
+is_high_risk,Binary Classification,6.01,,Optimal for Decision Support & Hotspot Screening,2.56,
+risk_tier,Ordinal Multi-Class,,97.44,High (Actionable tiered budget allocation),,"0:Baseline, 1:Moderate, 2:High, 3:Critical"

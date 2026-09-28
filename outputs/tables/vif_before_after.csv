@@ -1,0 +1,10 @@
+feature,VIF,status
+dist_to_center_km,13.905483656472617,High Multicollinearity (>5)
+builtup_pct,13.675026959113216,High Multicollinearity (>5)
+elevation_m,7.59551239804278,High Multicollinearity (>5)
+slope_deg,7.458059321772286,High Multicollinearity (>5)
+est_lanes,1.4309552298426294,Acceptable (<5)
+has_maxspeed,1.3485093715526157,Acceptable (<5)
+is_bridge,1.0799461250499331,Acceptable (<5)
+is_oneway,1.0659895013015246,Acceptable (<5)
+length_m,1.0016652510425375,Acceptable (<5)

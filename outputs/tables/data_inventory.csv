@@ -1,0 +1,17 @@
+file_name,size_mb,data_type,status_decision,notes
+b75c6222-4488-4d03-a20c-4f8ac1c2a1e5.csv,0.0,Official Delhi Aggregate Statistics,CONTEXT ONLY (Reality Check),Official aggregate government statistics on Delhi accidents
+c5a50842-cba9-4217-9202-bf40d9788789.csv,0.0,Official Delhi Aggregate Statistics,CONTEXT ONLY (Reality Check),Official aggregate government statistics on Delhi accidents
+d3b5df7e-b964-4d65-97c3-df4c07a03fd7.csv,0.0,Official Delhi Aggregate Statistics,CONTEXT ONLY (Reality Check),Official aggregate government statistics on Delhi accidents
+d62b502e-af7d-4bc3-8784-664e3e0b8353.csv,0.0,Official Delhi Aggregate Statistics,CONTEXT ONLY (Reality Check),Official aggregate government statistics on Delhi accidents
+ebf87168-a3d4-44a0-9041-b6a386478cb9.csv,0.0,Official Delhi Aggregate Statistics,CONTEXT ONLY (Reality Check),Official aggregate government statistics on Delhi accidents
+ESA_WorldCover_10m_2021_v200_N27E075_Map.tif,86.86,Land Cover Raster (ESA 10m),KEEP (Primary Land Cover),10m resolution land cover classification (tile N27E075)
+Indian-Road-Accident-Dataset-Analysis-2022-2025-Python---Jupyternotebook-main.zip,2.92,Crash Records 2022-2025 (Third-Party),CANDIDATE (Quarantine risk_score),"20,000 national crash records; 2,433 in Delhi. risk_score is leakage"
+NewDelhi.osm.pbf,35.43,OSM Vector Road Network (PBF),KEEP (Alternative / Raw Vector),OpenStreetMap raw protobuf format
+NewDelhi.osm.shp.zip,53.02,OSM Vector Road Network (Shapefile),KEEP (Primary Road Links),"Complete Delhi road network (215,373 line features)"
+POWER_Point_Hourly_20220101_20251231_028d61N_077d21E_LST.csv,1.31,Hourly Weather (NASA POWER MERRA-2),KEEP (Validation / Reanalysis),Hourly reanalysis meteorological data 2022-2025
+DEM\N28E076.hgt.zip,0.75,Elevation / Topography (SRTM 30m HGT),KEEP (Primary Elevation),"SRTM tiles covering Delhi (N28E076, N28E077)"
+DEM\N28E077.hgt.zip,0.73,Elevation / Topography (SRTM 30m HGT),KEEP (Primary Elevation),"SRTM tiles covering Delhi (N28E076, N28E077)"
+Weather Datasets\42182 (1).csv.gz,0.1,Hourly Weather (Meteostat Safdarjung),KEEP (Primary Weather),Hourly weather data for NCT Delhi station 42182
+Weather Datasets\42182 (2).csv.gz,0.1,Hourly Weather (Meteostat Safdarjung),KEEP (Primary Weather),Hourly weather data for NCT Delhi station 42182
+Weather Datasets\42182 (3).csv.gz,0.1,Hourly Weather (Meteostat Safdarjung),KEEP (Primary Weather),Hourly weather data for NCT Delhi station 42182
+Weather Datasets\42182.csv.gz,0.1,Hourly Weather (Meteostat Safdarjung),KEEP (Primary Weather),Hourly weather data for NCT Delhi station 42182

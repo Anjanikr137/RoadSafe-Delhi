@@ -1,0 +1,19 @@
+feature_name,data_type,domain,description
+osm_id,int64,Identifier,Unique OpenStreetMap road link identifier
+length_m,float64,Infrastructure,Segment length in meters (EPSG:32643)
+type,string,Infrastructure,Road functional hierarchy class
+est_lanes,int32,Infrastructure,Estimated carriageway lanes based on hierarchy
+is_oneway,int32,Infrastructure,"Binary indicator: 1 if one-way traffic, 0 otherwise"
+is_bridge,int32,Infrastructure,Binary indicator: 1 if elevated bridge / flyover
+has_maxspeed,int32,Infrastructure,Binary indicator: 1 if explicit speed limit is posted
+centroid_lon,float64,Spatial,Longitude of segment centroid
+centroid_lat,float64,Spatial,Latitude of segment centroid
+dist_to_center_km,float64,Spatial,Euclidean distance to Connaught Place (km)
+elevation_m,float64,Environmental,Mean terrain elevation above sea level (meters)
+slope_deg,float64,Environmental,Mean terrain slope in degrees
+builtup_pct,float64,Environmental,Urban built-up land cover percentage (ESA 10m)
+crash_count,int32,Crash Exposure,Total historical crashes assigned to segment
+fatal_count,int32,Crash Severity,Fatal crash count on segment
+total_casualties,int32,Crash Severity,Total persons injured or killed on segment
+night_crash_ratio,float64,Temporal Exposure,Proportion of crashes occurring at night (21:00-05:00)
+fog_crash_ratio,float64,Weather Exposure,Proportion of crashes occurring during dense fog
