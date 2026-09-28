@@ -1,0 +1,22 @@
+Type of Vehicle,Fatal Crashes 2021,Fatal Crashes 2022,Fatal Crashes 2023,Simple Crashes 2021,Simple Crashes 2022,Simple Crashes 2023,Total Crashes 2021,Total Crashes 2022,Total Crashes 2023
+Unknown Vehicle,555,668,660,1035,1104,1091,1590,1772,1751
+Private Car,168,196,184,1003,1275,1314,1171,1471,1498
+Scooter/M. Cycle,114,144,155,562,645,777,676,789,932
+Goods Carrier *,142,178,182,190,241,298,332,419,480
+Tempo,72,65,71,172,229,233,244,294,304
+TSR,23,28,35,143,176,142,166,204,177
+E-Rickshaw,10,8,18,45,58,100,55,66,118
+Cluster Bus,29,22,28,69,85,75,98,107,103
+Private Bus,12,23,20,38,68,66,50,91,86
+DTC Bus,17,37,16,66,89,67,83,126,83
+Delivery Van,13,14,10,45,68,64,58,82,74
+Taxi,8,10,6,51,59,57,59,69,63
+Tractor,17,12,15,18,35,29,35,47,44
+Crane,8,6,13,15,25,17,23,31,30
+Gramin Sewa,5,1,0,16,19,21,21,20,21
+Tanker,3,3,8,9,8,13,12,11,11
+Mini Bus,7,7,3,13,24,13,20,31,16
+Other State Bus,1,5,3,3,4,8,4,9,11
+School Bus,0,0,3,1,1,7,1,10,10
+Ambulance,2,1,1,13,9,9,15,10,7
+Military Veh.,0,0,1,0,0,1,0,2,2
