@@ -1,0 +1,10 @@
+feature,VIF,status
+est_lanes,1.459,Clean (< 5.0)
+has_maxspeed,1.36,Clean (< 5.0)
+is_bridge,1.101,Clean (< 5.0)
+is_oneway,1.085,Clean (< 5.0)
+slope_deg,1.07,Clean (< 5.0)
+elevation_m,1.046,Clean (< 5.0)
+dist_to_center_km,1.044,Clean (< 5.0)
+builtup_pct,1.038,Clean (< 5.0)
+length_m,1.01,Clean (< 5.0)

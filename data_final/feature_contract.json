@@ -1,0 +1,77 @@
+{
+  "project": "RoadSafe Delhi",
+  "version": "2.0-approved",
+  "row_grain": "Single OpenStreetMap road segment (osm_id)",
+  "identifier_columns": [
+    "osm_id"
+  ],
+  "spatial_metadata": [
+    "centroid_lon",
+    "centroid_lat",
+    "spatial_block",
+    "ml_split"
+  ],
+  "approved_predictors": [
+    "length_m",
+    "type",
+    "est_lanes",
+    "is_oneway",
+    "is_bridge",
+    "has_maxspeed",
+    "dist_to_center_km",
+    "elevation_m",
+    "slope_deg",
+    "builtup_pct"
+  ],
+  "approved_numerical_predictors": [
+    "length_m",
+    "est_lanes",
+    "is_oneway",
+    "is_bridge",
+    "has_maxspeed",
+    "dist_to_center_km",
+    "elevation_m",
+    "slope_deg",
+    "builtup_pct"
+  ],
+  "approved_categorical_predictors": [
+    "type"
+  ],
+  "target_definitions": {
+    "is_crash_segment": "Binary: 1 if segment has >=1 historical crashes, 0 otherwise",
+    "is_high_risk": "Binary: 1 if segment is severe/recurrent corridor (fatal>0 or major>0 or crashes>=2 or EPDO>=5.0), 0 otherwise",
+    "risk_tier": "Ordinal Multi-Class: 0 (Baseline), 1 (Low), 2 (Moderate), 3 (Critical)",
+    "crash_density_per_km": "Continuous: crashes per km of segment length (linear regression baseline)",
+    "EPDO_score": "Continuous: Equivalent Property Damage Only severity-weighted score per km"
+  },
+  "quarantined_leakage_columns": [
+    "risk_score",
+    "fatal_count",
+    "major_count",
+    "minor_count",
+    "total_casualties",
+    "night_crash_ratio",
+    "peak_crash_ratio",
+    "fog_crash_ratio",
+    "pca_comp_1",
+    "pca_comp_2",
+    "pca_comp_3"
+  ],
+  "split_assignments": {
+    "train_blocks": [
+      "West_South",
+      "West_Middle",
+      "Central_Middle",
+      "East_Middle",
+      "Central_North"
+    ],
+    "validation_blocks": [
+      "West_North",
+      "East_South"
+    ],
+    "test_blocks": [
+      "Central_South",
+      "East_North"
+    ]
+  }
+}

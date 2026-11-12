@@ -1,0 +1,42 @@
+{
+  "numerical_features": [
+    "length_m",
+    "est_lanes",
+    "is_oneway",
+    "is_bridge",
+    "has_maxspeed",
+    "dist_to_center_km",
+    "elevation_m",
+    "slope_deg",
+    "builtup_pct"
+  ],
+  "categorical_features": [
+    "type"
+  ],
+  "final_feature_names": [
+    "length_m",
+    "est_lanes",
+    "is_oneway",
+    "is_bridge",
+    "has_maxspeed",
+    "dist_to_center_km",
+    "elevation_m",
+    "slope_deg",
+    "builtup_pct",
+    "type_living_street",
+    "type_motorway",
+    "type_motorway_link",
+    "type_primary",
+    "type_primary_link",
+    "type_residential",
+    "type_secondary",
+    "type_secondary_link",
+    "type_service",
+    "type_tertiary",
+    "type_tertiary_link",
+    "type_trunk",
+    "type_trunk_link",
+    "type_unclassified"
+  ],
+  "feature_count": 23
+}
