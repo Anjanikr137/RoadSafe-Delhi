@@ -1,0 +1,23 @@
+{
+  "model_name": "Ridge Linear Regression",
+  "assigned_member": "Anushree",
+  "target": "crash_density_per_km",
+  "target_type": "continuous_rate",
+  "alpha": 10.0,
+  "random_state": 42,
+  "solver": "auto",
+  "n_features": 23,
+  "train_samples": 11502,
+  "validation_samples": 4229,
+  "test_samples": 3686,
+  "validation_metrics": {
+    "mae": 0.2448,
+    "rmse": 1.3644,
+    "r2": 0.4251
+  },
+  "test_metrics": {
+    "mae": 0.215807,
+    "rmse": 1.407025,
+    "r2": 0.343341
+  }
+}
