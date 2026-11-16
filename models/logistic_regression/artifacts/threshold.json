@@ -1,0 +1,7 @@
+{
+  "optimal_threshold": 0.9924204116402461,
+  "selection_metric": "max_validation_f1",
+  "validation_f1_at_threshold": 0.8571,
+  "default_threshold": 0.5,
+  "tuning_partition": "validation.parquet (untouched test held out)"
+}

@@ -1,0 +1,30 @@
+{
+  "model": "Logistic Regression",
+  "assigned_member": "Amit",
+  "target": "is_crash_segment",
+  "selected_configuration": "Balanced (C=1.0)",
+  "optimal_threshold": 0.9924204116402461,
+  "training_duration_sec": 0.17598485946655273,
+  "test_metrics": {
+    "accuracy": 0.9948,
+    "precision": 0.97,
+    "recall": 0.8584,
+    "f1_score": 0.9108,
+    "roc_auc": 0.9761,
+    "pr_auc": 0.8894,
+    "confusion_matrix": {
+      "true_negatives": 3570,
+      "false_positives": 3,
+      "false_negatives": 16,
+      "true_positives": 97
+    }
+  },
+  "validation_metrics": {
+    "accuracy": 0.9891,
+    "precision": 0.9517,
+    "recall": 0.7797,
+    "f1_score": 0.8571,
+    "roc_auc": 0.9553,
+    "pr_auc": 0.7704
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "model_type": "LogisticRegression",
+  "library": "scikit-learn",
+  "selected_configuration": "Balanced (C=1.0)",
+  "hyperparameters": {
+    "C": 1.0,
+    "penalty": "l2",
+    "class_weight": "balanced",
+    "solver": "lbfgs",
+    "max_iter": 1000,
+    "random_state": 42
+  },
+  "training_duration_sec": 0.17598485946655273,
+  "feature_count": 23,
+  "validation_candidate_comparison": [
+    {
+      "config": "Baseline (Unweighted, C=1.0)",
+      "C": 1.0,
+      "class_weight": "None",
+      "val_roc_auc": 0.9339,
+      "val_pr_auc": 0.8426,
+      "default_acc": 0.9908,
+      "default_f1": 0.8762,
+      "default_rec": 0.7797,
+      "tuned_f1": 0.8833,
+      "optimal_threshold": 0.4803,
+      "train_duration_sec": 0.126
+    },
+    {
+      "config": "Balanced (C=0.01)",
+      "C": 0.01,
+      "class_weight": "balanced",
+      "val_roc_auc": 0.9353,
+      "val_pr_auc": 0.789,
+      "default_acc": 0.9449,
+      "default_f1": 0.5579,
+      "default_rec": 0.8305,
+      "tuned_f1": 0.8598,
+      "optimal_threshold": 0.8276,
+      "train_duration_sec": 0.0693
+    },
+    {
+      "config": "Balanced (C=0.1)",
+      "C": 0.1,
+      "class_weight": "balanced",
+      "val_roc_auc": 0.9503,
+      "val_pr_auc": 0.7591,
+      "default_acc": 0.9676,
+      "default_f1": 0.6879,
+      "default_rec": 0.8531,
+      "tuned_f1": 0.8545,
+      "optimal_threshold": 0.9541,
+      "train_duration_sec": 0.1254
+    },
+    {
+      "config": "Balanced (C=1.0)",
+      "C": 1.0,
+      "class_weight": "balanced",
+      "val_roc_auc": 0.9553,
+      "val_pr_auc": 0.7704,
+      "default_acc": 0.965,
+      "default_f1": 0.6726,
+      "default_rec": 0.8588,
+      "tuned_f1": 0.8571,
+      "optimal_threshold": 0.9924,
+      "train_duration_sec": 0.176
+    },
+    {
+      "config": "Balanced (C=10.0)",
+      "C": 10.0,
+      "class_weight": "balanced",
+      "val_roc_auc": 0.9561,
+      "val_pr_auc": 0.7841,
+      "default_acc": 0.9645,
+      "default_f1": 0.6696,
+      "default_rec": 0.8588,
+      "tuned_f1": 0.8642,
+      "optimal_threshold": 0.9843,
+      "train_duration_sec": 0.2278
+    },
+    {
+      "config": "Balanced (C=100.0)",
+      "C": 100.0,
+      "class_weight": "balanced",
+      "val_roc_auc": 0.9567,
+      "val_pr_auc": 0.8504,
+      "default_acc": 0.9643,
+      "default_f1": 0.6681,
+      "default_rec": 0.8588,
+      "tuned_f1": 0.8679,
+      "optimal_threshold": 1.0,
+      "train_duration_sec": 0.3063
+    }
+  ]
+}
